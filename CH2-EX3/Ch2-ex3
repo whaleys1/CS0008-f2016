@@ -1,0 +1,12 @@
+# Template for code submission
+# name          : Sean Whaley
+# email         : smw100@pitt.edu
+# date          : 9/14/2016
+# class         : CS0008-f2016
+# instructor    : Max Novelli (man8@pitt.edu)
+#
+# Description: Chap 2 exercise 3. Calculating acres from sq ft
+
+total_ft = float(input('Please enter the total area (in square feet): ')) # total ft from the user
+acres = total_ft /43560  #calculating acres
+print 'total acres: ', acres  #displaying results
