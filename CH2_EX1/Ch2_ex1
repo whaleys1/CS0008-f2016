@@ -1,0 +1,15 @@
+
+# name          : Sean Whaley
+# email         : smw100@pitt.edu
+# date          : 9/14/2016
+# class         : CS0008-f2016
+# instructor    : Max Novelli (man8@pitt.edu)
+#
+# Description:
+# Ch 2--1 Printing name/address/major
+
+print('Sean Whaley') #name
+print('5829 Ramsgate St') #address line 1
+print('Portage, MI 49024') #address line 2
+print('Statistics') #major
+
