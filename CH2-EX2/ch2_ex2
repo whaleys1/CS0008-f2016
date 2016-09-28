@@ -1,0 +1,12 @@
+# Template for code submission
+# name          : Sean Whaley
+# email         : smw100@pitt.edu
+# date          : 9/14/2016
+# class         : CS0008-f2016
+# instructor    : Max Novelli (man8@pitt.edu)
+#
+# Description: Completed Chapter 2 exercise 2
+
+sales = float(input('Enter projected sales: ')) # getting projected sales
+profit = sales * .23  #calculating profit
+print 'profit is: ', profit
