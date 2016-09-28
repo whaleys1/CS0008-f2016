@@ -31,16 +31,24 @@ elif 0 < lkm <= 8:
  fc = 'Excellent'
 else:
  fc = 'Error'
-print (mi)
-print (gal)
-print (mpg)
-print (km)
-print (lt)
-print (lkm)
-print (fc)
+
+print '\t\t\t\t\tUSC'
+print 'Distance\t', format(mi, '10.3f'),'miles'
+print 'Gas\t\t', format(gal, '10.3f'),'gallons'
+print 'Consupmtion\t', format(mpg, '10.3f'),'mpg'
+print '\t\t\t\t\tMetric'
+print 'Distance\t', format(km, '10.3f'),'Km'
+print 'Gas\t\t', format(lt, '10.3f'),'liters'
+#print (format( mi, '10.3f')
+#print (format( gal, '10.3f')
+#print (format( mpg, '10.3f')
+#print (format( km, '10.3f')
+#print (format( lt, '10.3f')
+#print (format( lkm, '10.3f')
+#print (fc)
 
 #print ('\t USC\t Metric')
-#print('Distance\t'mi 'miles\t' km 'Km') format(mi, 10.3f) format(km, 10.3f)
-#print('Gas\t' gal 'gallons\t' lt 'Liters') format(gal, 10.3f) format (lt, 10.3f)
-#print('Consumption\t' mpg 'mpg\t' lkm '1/100Km') format(mpg, 10.3f) format(lkm, 10.3f)
+#print('Distance\t'mi 'miles\t' km 'Km')
+#print('Gas\t' gal 'gallons\t' lt 'Liters')
+#print('Consumption\t' mpg 'mpg\t' lkm '1/100Km')
 #print('\n Consumption Rating:' fc)
