@@ -19,6 +19,13 @@ elif mesr == 2:
     mpg = mi / gal
 elif mesr != 1 or 2:
     print('Error! Entry not recognized as unit of measure!')
+    mi  = 0
+    gal = 0
+    mpg = 0
+    km = 0
+    lt = 0
+    lkm = 0
+
 if lkm > 20:
  fc = 'Extremely poor'
 elif 15 < lkm and lkm <= 20:
@@ -34,11 +41,13 @@ else:
 
 print '\t\t\t\t\tUSC'
 print 'Distance\t', format(mi, '10.3f'),'miles'
-print 'Gas\t\t', format(gal, '10.3f'),'gallons'
+print 'Gas\t\t\t', format(gal, '10.3f'),'gallons'
 print 'Consupmtion\t', format(mpg, '10.3f'),'mpg'
-print '\t\t\t\t\tMetric'
+print '\t\t\t\t   Metric'
 print 'Distance\t', format(km, '10.3f'),'Km'
-print 'Gas\t\t', format(lt, '10.3f'),'liters'
+print 'Gas\t\t\t', format(lt, '10.3f'),'liters'
+print 'Consumption\t', format(lkm, '10.3f'), 'l/100Km'
+print '\nGas Consumption Rating:', fc
 #print (format( mi, '10.3f')
 #print (format( gal, '10.3f')
 #print (format( mpg, '10.3f')
