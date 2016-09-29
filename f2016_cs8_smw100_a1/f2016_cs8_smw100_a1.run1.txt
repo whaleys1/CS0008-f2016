@@ -1,0 +1,16 @@
+/usr/bin/python /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a1/f2016_cs8_smw100_a1.py
+Please enter your units of measurement ( 1 for USC or 2 for Metric):  1
+Distance in miles? 550
+Gallons of gas used? 15.5
+					USC
+Distance	   550.000 miles
+Gas			    15.500 gallons
+Consupmtion	    35.484 mpg
+				   Metric
+Distance	   885.137 Km
+Gas			    58.674 liters
+Consumption	     6.629 l/100Km
+
+Gas Consumption Rating: Excellent
+
+Process finished with exit code 0

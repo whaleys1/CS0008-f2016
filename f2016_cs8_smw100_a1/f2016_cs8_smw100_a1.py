@@ -3,11 +3,11 @@ if mesr == 1:  #if USC calculating vars based on mi & gal
     mi = float(input('Distance in miles? ')) #formatting input as float
     if mi <= 0:
         print('Error distance traveled must be larger than 0!') #printing error if improper values
-        mi = 1
+        mi = 1 #setting error values to avoid division by 0
     gal = float(input('Gallons of gas used? '))
     if gal <= 0:
         print('Error gallons used must be larger than 0!')
-        gal = 1
+        gal = 1 #setting error values to avoid division by 0
     mpg = mi / gal  #calculating mpg
     km = mi * 1.60934 #converting mi to km
     lt = gal * 3.78541 # gals to liters
@@ -16,7 +16,7 @@ elif mesr == 2: #if Metric calculating vars based on km & liters
     km = float(input('Distance in kilometers? '))
     if km <= 0:
         print('Error distance traveled must be larger than 0!')
-        km = 1
+        km = 1 #setting error values to avoid division by 0
     lt = float(input( 'Liters of fuel used? '))
     if lt <= 0:
         print('Error liters used must be larger than 0!')
