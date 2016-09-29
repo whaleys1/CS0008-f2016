@@ -1,3 +1,6 @@
+#
+#
+#
 mesr = int(input('Please enter your units of measurement ( 1 for USC or 2 for Metric):  '))
 if mesr == 1:  #if USC calculating vars based on mi & gal
     mi = float(input('Distance in miles? ')) #formatting input as float

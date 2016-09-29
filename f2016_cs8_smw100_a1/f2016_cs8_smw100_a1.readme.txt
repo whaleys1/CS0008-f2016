@@ -5,7 +5,7 @@ Created 3 pathways
 
 All variables were calculated based on input from the user.
 If the user input USC, distance and fuel consumption were calculated based on those values
-and converted to Metric units for the required values.
+and converted to Metric units for the required values. Vice versa.
 The fuel rating was based on liters per 100km.
 Displayed all numeric variables to 3 decimal places with units following.
 In both units of measure.
