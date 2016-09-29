@@ -1,0 +1,19 @@
+Created 3 pathways
+1) USC
+2) Metric
+3) Error
+
+All variables were calculated based on input from the user.
+If the user input USC, distance and fuel consumption were calculated based on those values
+and converted to Metric units for the required values.
+The fuel rating was based on liters per 100km.
+Displayed all numeric variables to 3 decimal places with units following.
+In both units of measure.
+
+list of variables:
+mi  =  distance in miles
+gal =  gallons
+mpg =  miles per gallon
+km  =  distance in Kilometers
+lt  =  liters
+lkm =  liters/100Km
