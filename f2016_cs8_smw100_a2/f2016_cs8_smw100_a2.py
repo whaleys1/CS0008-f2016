@@ -16,11 +16,21 @@ def main():
             temp = line.split(",")  # seperating the name from miles
             miles = float(temp[1])  # casting miles as a float with an index to the correct data
             pmiles += miles  # adding the partial miles to the accumulator
-
+            fh.close()
         processfile(fh)  # calling processfile
     tcount += pcount  # adding the partials to the total
     tmiles += pmiles
-
+        def printKV(key, value, klen = 0):
+            kl =  max(len(key), klen)
+            if isinstance (value, str):
+                fs = '20s'
+            elif isinstance (value, float):
+                fs = '10.3f'
+            elif isinstance (value, int):
+                fs = '10s'
+            else:
+                print ('Error! I cannot print this')
+            print (format (key, str(kl) + 's'))
 
     print (tcount, tmiles)
 main()
