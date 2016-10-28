@@ -6,9 +6,8 @@ def main():
     file = input("Please enter a file name or type q for quit: ")
     fh = open(file, 'r')
 
-
     def processfile(fh):  # defining processfile function
-      for line in fh:
+      for line in fh:  #for loop through each line in fh
        pcount += 1  # incrementing the line count
        line = line.rstrip("/n")  # stripping the new line character
        temp = line.split(",")  # seperating the name from miles
@@ -17,9 +16,9 @@ def main():
        print ("File to be read: ", file)
        print ("Partial Total # of lines: ", format(pcount, '10s'))
        print ("Partial Distance run    : ", format(pmiles, '10.3f'))
-       fh.close()
+    fh.close()
 
-    while file != "q" and not 'quit':  # creating a user controlled loop for input
+    while file and file != "q" and not 'quit':  # creating a user controlled loop for input
        pcount, pmiles =processfile(fh)  # calling processfile
        processfile(fh)
        file = input("Please enter a file name or type q for quit: ")
@@ -35,8 +34,4 @@ def main():
     # fs = '10s'
     # else:
     # print ('Error! I cannot print this')
-    # print (format (key, str(kl) + 's'))
-
-
-
 main()
