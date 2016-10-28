@@ -19,7 +19,7 @@ def main():
             print ("Partial Distance run    : ", format(pmiles, '10.3f'))
             fh.close()
 
-        processfile(fh)  # calling processfile
+        pcount, pmiles =processfile(fh)  # calling processfile
 
         file = input("Please enter a file name or type q for quit: ")
     tcount += pcount  # adding the partials to the total
