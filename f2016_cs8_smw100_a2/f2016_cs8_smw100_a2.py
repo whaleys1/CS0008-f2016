@@ -14,7 +14,7 @@ def main():
        miles = float(temp[1])  # casting miles as a float with an index to the correct data
        pmiles += miles  # adding the partial miles to the accumulator
        print ("File to be read: ", file)   #last ditch effort to capture some output
-       print ("Partial Total # of lines: ", format(pcount, '10s')
+       print ("Partial Total # of lines: ", format(pcount, '10s'))
        print ("Partial Distance run    : ", format(pmiles, '10.3f'))
 
 

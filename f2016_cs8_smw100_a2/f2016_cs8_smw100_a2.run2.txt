@@ -1,0 +1,4 @@
+/usr/bin/python /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a2/f2016_cs8_smw100_a2.py
+Please enter a file name or type q for quit: 'data1.csv'
+
+Process finished with exit code 0
