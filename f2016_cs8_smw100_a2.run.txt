@@ -1,0 +1,13 @@
+/usr/bin/python /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a2/f2016_cs8_smw100_a2.py
+Please enter a file name or type q for quit: /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a2/data1.csv
+Traceback (most recent call last):
+  File "/Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a2/f2016_cs8_smw100_a2.py", line 39, in <module>
+    main()
+  File "/Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a2/f2016_cs8_smw100_a2.py", line 4, in main
+    file = input("Please enter a file name or type q for quit: ")
+  File "<string>", line 1
+    /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_a2/data1.csv
+    ^
+SyntaxError: invalid syntax
+
+Process finished with exit code 1
