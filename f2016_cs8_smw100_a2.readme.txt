@@ -1,2 +1,15 @@
 # CS0008-f2016
-Python Repo
+
+I designed this program to process data files input by the user.
+
+Processfile was defined as a function to handle the each file and compile a total of lines (runners)
+and also total the distance ran. It would then add that to a running a running total which would be
+output by the program after the user indicated by "q" or "quit" that they are finished.
+Unfornately I could not get the program to run, through some oversight of the input statement
+or syntax error, in multiple trials I did not get any meaningful output. I have reviewed all of the
+requisite material and have not found an answer to my quandry.
+
+A print function was designed to process a key (statement designated by the user) to process
+a print request with a specified format.
+
+I simplified the file names for ease of use when inputting them multiple times.
