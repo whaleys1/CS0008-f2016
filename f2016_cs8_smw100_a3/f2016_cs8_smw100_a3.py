@@ -22,11 +22,23 @@ for line in file:
     d, count = opfile(line, run_g)
     run_g.update(d)
 
+max_name = ''
+max_dist = 0
+min_name = ''
+min_dist = 0
 tot_dist = 0
 for key in run_g:
     ldist = run_g[key]
     ind_dist = 0
+    num_run = len(ldist)
     for value in ldist:
         ind_dist += value
+        if value > max_dist:
+            max_dist = value
+            max_name = key
+        elif value < min_dist:
+            min_dist = value
+            min_name = key
+    out_file.write(key, num_run, ind_dist)
     tot_dist += ind_dist
 
