@@ -1,0 +1,7 @@
+This final project was an extension of assignment 3 using classes. The Runner class is created
+along with methods described in the assignment. Syntax for required programs and class statements
+were created by Max Novelli some naming conventions were changed.
+
+I quickly ran into the same problem from assignment 3. Even with pasting in the instructor's code and
+hard coding the masterfile I was unable to get the program to run properly. The opfile program was employed
+from assignment 3 (with changes made due to instructor comments).

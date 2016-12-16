@@ -1,0 +1,7 @@
+/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_fp/f2016_cs8_smw100_fp.py
+  File "/Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_fp/f2016_cs8_smw100_fp.py", line 103
+    master = /Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_fp/f2016_cs8_fp.data(1)
+             ^
+SyntaxError: invalid syntax
+
+Process finished with exit code 1
