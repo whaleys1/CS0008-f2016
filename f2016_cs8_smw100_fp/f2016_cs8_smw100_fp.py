@@ -5,6 +5,14 @@
 # instructor : Max Novelli (man8@pitt.edu)
 #
 # Final Project
+#
+# Notes: 
+# MN: you defiend the class Runner, but you never used it
+# MN: your needed to debug it a little bit longer, your error was due to an invalid file path
+# MN: when you use a variable, always make sure that its value is defined 
+# MN: pay attention to the indentation, in Python matters.
+
+
 
 class Runner:
     # Runner class created
@@ -90,19 +98,34 @@ def opfile(filename, d):
                 # MN: append changes the list in place
                 # MN: you need to check the syntax of the command, space before ( is not needed
                 # d[key] = d[key].append (value)
-            d[key] = d[key].append(value)
-    else:
-        d[key] = [value]
-        inner_file.close()
-        return [d, count]
+            # MN: append changes the value of the list itself
+            #     no need to reassing
+            #d[key] = d[key].append(value)
+           d[key].append(value)
+        # MN: wrong indentation
+    #else:
+    #    d[key] = [value]
+        else:
+            d[key] = [value]
+        # MN: wrong indentation
+        #inner_file.close()
+        #return [d, count]
+    inner_file.close()
+    return [d, count]
 
 run_g = {}
+# MN: clean the code and comments
+#
     # MN: I would open the output file when and where I really need it, down below
     # out_file = open('output.txt', 'w')
     # MN: why not asking the user for master list file name?
-master = '/Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_fp/f2016_cs8_fp.data(1)'
+# MN: the reason that your code was not runnign is that you are trying to open a folder and not a file
+#     always verify that the string that you pass to the open function is a valid file path
+#master = '/Users/seanwhaley/Documents/CS0008/CS0008-f2016/f2016_cs8_smw100_fp/f2016_cs8_fp.data(1)'
+master = 'f2016_cs8_fp.data.txt'
 file = open(master, 'r')
 for line in file:
+    # MN: indetnation matters!!!!
         line = line.rstrip('\n')
         d, count = opfile(line, run_g)
         run_g.update(d)
